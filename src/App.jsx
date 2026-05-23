@@ -1,4 +1,12 @@
 import React from "react";
+import jolly_sailor from "./assets/jolly_sailor.gif";
+import railway_inn from "./assets/railway_inn.jpeg";
+import the_pendulum from "./assets/the_pendulum.jpg";
+import the_firs from "./assets/the_firs.jpg";
+import port_n_ale from "./assets/port-n-ale.jpg";
+import fradley_arms from "./assets/fradley_arms.jpg";
+import clock_tower from "./assets/clock_tower.jpg";
+import dilke from "./assets/dilke.jpg";
 
 export default function VRGroupHomepage() {
   const pubs = [
@@ -7,56 +15,56 @@ export default function VRGroupHomepage() {
       location: "West Bromwich",
       address: "Oldbury Road, West Bromwich, B70 9EF",
       image:
-        "/src/assets/jolly_sailor.gif",
+        jolly_sailor,
     },
     {
       name: "The Railway Inn",
       location: "Oldbury",
       address: "96 Bromford Road, West Bromwich, B70 7JB",
       image:
-        "/src/assets/railway_inn.jpeg",
+        railway_inn,
     },
     {
       name: "The Pendulum",
       location: "Wolverhampton",
       address: "Blaydon Road, Pendeford, WV9 5NP",
       image:
-        "/src/assets/the_pendulum.jpg",
+        the_pendulum,
     },
     {
       name: "The Firs",
       location: "Castlecroft",
       address: "Windmill Lane, Wolverhampton, WV3 8HG",
       image:
-        "/src/assets/the_firs.jpg",
+        the_firs,
     },
     {
       name: "Port 'N' Ale",
       location: "Tipton",
       address: "178 Horseley Heath, DY4 7DS",
       image:
-        "/src/assets/port-n-ale.jpg",
+        port_n_ale,
     },
     {
       name: "The Fradley Arms",
       location: "Lichfield",
       address: "Rykneld Street, WS13 8RD",
       image:
-        "/src/assets/fradley_arms.jpg",
+        fradley_arms,
     },
     {
       name: "The Clock Tower",
       location: "Telford",
       address: "Station Road, TF2 8JY",
       image:
-        "/src/assets/clock_tower.jpg",
+        clock_tower,
     },
     {
       name: "The Dilke",
       location: "Walsall",
       address: "Aldridge Road, WS4 2JP",
       image:
-        "/src/assets/dilke.jpg",
+        dilke,
     },
   ];
 
