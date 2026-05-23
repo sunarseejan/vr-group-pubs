@@ -7,56 +7,56 @@ export default function VRGroupHomepage() {
       location: "West Bromwich",
       address: "Oldbury Road, West Bromwich, B70 9EF",
       image:
-        "src/assets/jolly_sailor.gif",
+        "/src/assets/jolly_sailor.gif",
     },
     {
       name: "The Railway Inn",
       location: "Oldbury",
       address: "96 Bromford Road, West Bromwich, B70 7JB",
       image:
-        "src/assets/railway_inn.jpeg",
+        "/src/assets/railway_inn.jpeg",
     },
     {
       name: "The Pendulum",
       location: "Wolverhampton",
       address: "Blaydon Road, Pendeford, WV9 5NP",
       image:
-        "src/assets/the_pendulum.jpg",
+        "/src/assets/the_pendulum.jpg",
     },
     {
       name: "The Firs",
       location: "Castlecroft",
       address: "Windmill Lane, Wolverhampton, WV3 8HG",
       image:
-        "src/assets/the_firs.jpg",
+        "/src/assets/the_firs.jpg",
     },
     {
       name: "Port 'N' Ale",
       location: "Tipton",
       address: "178 Horseley Heath, DY4 7DS",
       image:
-        "src/assets/port-n-ale.jpg",
+        "/src/assets/port-n-ale.jpg",
     },
     {
       name: "The Fradley Arms",
       location: "Lichfield",
       address: "Rykneld Street, WS13 8RD",
       image:
-        "src/assets/fradley_arms.jpg",
+        "/src/assets/fradley_arms.jpg",
     },
     {
       name: "The Clock Tower",
       location: "Telford",
       address: "Station Road, TF2 8JY",
       image:
-        "src/assets/clock_tower.jpg",
+        "/src/assets/clock_tower.jpg",
     },
     {
       name: "The Dilke",
       location: "Walsall",
       address: "Aldridge Road, WS4 2JP",
       image:
-        "src/assets/dilke.jpg",
+        "/src/assets/dilke.jpg",
     },
   ];
 
