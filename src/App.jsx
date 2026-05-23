@@ -7,56 +7,56 @@ export default function VRGroupHomepage() {
       location: "West Bromwich",
       address: "Oldbury Road, West Bromwich, B70 9EF",
       image:
-        "https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/jolly_sailor.gif",
     },
     {
       name: "The Railway Inn",
       location: "Oldbury",
       address: "96 Bromford Road, West Bromwich, B70 7JB",
       image:
-        "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/railway_inn.jpeg",
     },
     {
       name: "The Pendulum",
       location: "Wolverhampton",
       address: "Blaydon Road, Pendeford, WV9 5NP",
       image:
-        "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/the_pendulum.jpg",
     },
     {
       name: "The Firs",
       location: "Castlecroft",
       address: "Windmill Lane, Wolverhampton, WV3 8HG",
       image:
-        "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/the_firs.jpg",
     },
     {
       name: "Port 'N' Ale",
       location: "Tipton",
       address: "178 Horseley Heath, DY4 7DS",
       image:
-        "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/port-n-ale.jpg",
     },
     {
       name: "The Fradley Arms",
       location: "Lichfield",
       address: "Rykneld Street, WS13 8RD",
       image:
-        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/fradley_arms.jpg",
     },
     {
       name: "The Clock Tower",
       location: "Telford",
       address: "Station Road, TF2 8JY",
       image:
-        "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/clock_tower.jpg",
     },
     {
       name: "The Dilke",
       location: "Walsall",
       address: "Aldridge Road, WS4 2JP",
       image:
-        "https://images.unsplash.com/photo-1566737236500-c8ac43014a8e?q=80&w=1200&auto=format&fit=crop",
+        "src/assets/dilke.jpg",
     },
   ];
 
@@ -240,8 +240,8 @@ export default function VRGroupHomepage() {
           {[
             ["8+", "Premium Pubs"],
             ["100+", "Menu Items"],
-            ["24/7", "Reservations"],
-            ["1000+", "Happy Guests"],
+            ["12:00 24:00", "Opening Hours"],
+            ["10000+", "Happy Guests"],
           ].map(([number, label]) => (
             <div
               key={label}
